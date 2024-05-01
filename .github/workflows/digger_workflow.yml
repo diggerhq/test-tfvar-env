@@ -30,7 +30,7 @@ jobs:
     #      aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
     #      aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
     #      aws-session-token: ${{ secrets.AWS_SESSION_TOKEN }}
-      - uses: diggerhq/digger@feat/load-env-vars-correctly
+      - uses: diggerhq/digger@fix-terragrunt-cache-var-conditional
         with:
 #          setup-aws: true
 #          aws-role-to-assume: arn:aws:iam::731498386036:role/AWSReservedSSO_Aperio-DevOpsEngineer_e4e09890bb3a5602
