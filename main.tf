@@ -9,3 +9,5 @@ output "variable_output" {
   description = "This output shows the value of the input variable."
 }
 
+
+
